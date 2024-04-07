@@ -27,7 +27,7 @@ class Address(BaseModel):
     country: str
 
 class Student(BaseModel):
-    id: str = Field(default=None, alias="id")
+    id: str = Field(default=None, alias="_id")
     name: str
     age: int
     address: Address
