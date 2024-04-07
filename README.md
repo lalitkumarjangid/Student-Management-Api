@@ -28,3 +28,9 @@ To start the application, run the following command:
 
 ```bash
 uvicorn main:app --reload
+```
+### Live Link
+
+```bash
+https://fast-api-1-vhj6.onrender.com/api/students
+```
