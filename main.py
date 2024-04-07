@@ -95,5 +95,5 @@ async def delete_student(id: str):
     if result.deleted_count != 1:
         raise HTTPException(status_code=404, detail="Student not found")
 
-# if __name__ == "__main__":
-#     uvicorn.run("main:app", host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
