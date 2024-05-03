@@ -34,3 +34,8 @@ uvicorn main:app --reload
 ```bash
 https://fast-api-1-vhj6.onrender.com/api/students
 ```
+
+### Follow me on Github
+```bash
+https://github.com/lalitkumarjangid
+```
